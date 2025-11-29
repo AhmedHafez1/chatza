@@ -1,0 +1,19 @@
+{
+  "name": "chatza",
+  "version": "1.0.0",
+  "description": "Chat App",
+  "homepage": "https://github.com/AhmedHafez1/chatza#readme",
+  "bugs": {
+    "url": "https://github.com/AhmedHafez1/chatza/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedHafez1/chatza.git"
+  },
+  "license": "ISC",
+  "author": "Ahmad",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  }
+}
